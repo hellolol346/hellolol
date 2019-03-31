@@ -1,5 +1,8 @@
 import React from 'react'
 
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// Component
+
 const SportsView = () => (
    <section>
       <h1>Hi There! Welcome to my website. Here you can check out about me, the 
@@ -8,5 +11,8 @@ const SportsView = () => (
       <div className='Button'>Click here to see my pictures</div>
    </section>
 )
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// Export
 
 export default SportsView

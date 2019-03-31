@@ -9,4 +9,7 @@ const AboutView = () => (
    </section>
 )
 
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// Export
+
 export default AboutView
