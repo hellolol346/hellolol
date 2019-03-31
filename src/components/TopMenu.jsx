@@ -9,9 +9,9 @@ const TopMenu = () => (
    <menu id='TopMenu'>
       <NavLink exact to='/' id='Logo' className='item' activeClassName='current'>home</NavLink>
       <section>
-         <NavLink to='/blog'  className='item' activeClassName='current'>blog</NavLink>
-         <NavLink to='/test'  className='item' activeClassName='current'>code</NavLink>
-         <NavLink to='/about' className='item' activeClassName='current'>about</NavLink>
+         <NavLink to='/about'  className='item' activeClassName='current'>about</NavLink>
+         <NavLink to='/sports'  className='item' activeClassName='current'>sports</NavLink>
+         <NavLink to='/school' className='item' activeClassName='current'>school</NavLink>
       </section>
    </menu>
 )
