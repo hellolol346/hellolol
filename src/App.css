@@ -15,8 +15,6 @@ body {
   justify-content: flex-start;
 }
 
-/* blah blah */
-
 .MenuItem:not(:first-child) {
   margin-left: 19px;
 }
