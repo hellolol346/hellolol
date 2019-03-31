@@ -15,8 +15,8 @@ body {
   justify-content: flex-start;
 }
 
-.MenuItem:not(:first-child) {
-  margin-left: 19px;
+.item:not(:last-child) {
+  margin-right: 19px;
 }
 
 #TopMenu a {
@@ -33,7 +33,6 @@ body {
   padding: 1em;
   text-align: center;
   border-radius: 3px; /* makes the corner less sharp */
-   
   transition: all 1.5s; /* makes a delayed animation */
 }
 
