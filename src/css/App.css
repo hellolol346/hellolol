@@ -1,3 +1,5 @@
+/* ━━━━━ Default ━━━━━ */
+
 body {
   max-width: 600px;
   margin-left: 1em;
@@ -21,6 +23,8 @@ code {
     monospace;
 }
 
+/* ━━━━━ TopMenu ━━━━━ */
+
 #TopMenu {
   display: flex;
   justify-content: flex-start;
@@ -37,6 +41,8 @@ code {
 #TopMenu a:hover {
   color: rgb(224, 43, 224);
 }
+
+/* ━━━━━ Button ━━━━━ */
 
 .Button {
   border: 2px solid transparent;
@@ -58,4 +64,3 @@ code {
   max-width: 8em;
   padding: 1em;
 }
-

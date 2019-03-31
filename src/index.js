@@ -1,3 +1,8 @@
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// Critical 
+
+// Do not touch this file.
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './pages/App';
