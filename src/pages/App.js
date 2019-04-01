@@ -5,10 +5,10 @@ import { Route, Switch } from 'react-router-dom'
 // Views and Components
 
 import TopMenu    from '../components/TopMenu'
-import HomeView   from '../pages/HomeView'
-import AboutView  from '../pages/AboutView'
-import SchoolView from '../pages/SchoolView'
-import SportsView from '../pages/SportsView'
+import HomeView   from './HomeView'
+import AboutView  from './AboutView'
+import SchoolView from './SchoolView'
+import SportsView from './SportsView'
 
 import '../css/App.css'
 import '../css/reset.css'
