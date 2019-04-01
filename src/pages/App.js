@@ -10,7 +10,7 @@ import AboutView  from './AboutView'
 import SchoolView from './SchoolView'
 import SportsView from './SportsView'
 
-import '../css/App.css'
+import '../css/App.scss'
 import '../css/reset.css'
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
