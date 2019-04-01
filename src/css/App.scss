@@ -1,11 +1,9 @@
 /* ━━━━━ Default ━━━━━ */
 
 body {
-  max-width: 600px;
   margin-left: 1em;
   margin-right: 1em;
   margin: auto;
-  padding: 1em;
   background-color: black;
   color: white;
   text-align: justify;
@@ -23,19 +21,29 @@ code {
     monospace;
 }
 
+#App {
+  margin: auto;
+  padding: 1em;
+}
+
 /* ━━━━━ TopMenu ━━━━━ */
 
 #TopMenu {
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 1em;
 }
 
 #TopMenu a {
-  color: rgb(55, 0, 255);
+  color: rgb(124, 179, 252);
 }
 
 #TopMenu a:hover {
   color: rgb(224, 43, 224);
+}
+
+#TopMenu .current {
+  border-bottom: 2px solid
 }
 
 .item:not(:last-child) {

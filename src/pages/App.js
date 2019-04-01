@@ -17,25 +17,25 @@ import '../css/reset.css'
 // Main App
 
 /*
-   Your website is made of two parts right now, a top menu part and a bottom page
-   underneath. When you click on the menu items the bottom part changes based on
-   where you want to go.
+	 Your website is made of two parts right now, a top menu part and a bottom page
+	 underneath. When you click on the menu items the bottom part changes based on
+	 where you want to go.
 
-   1. <TopMenu /> is where your TopMenu is stored.
-   2. <Switch> is the bottom part of your page, and it contains a list of possible
-      locations you might want to go. Each <Route> is like a different page or view.
+	 1. <TopMenu /> is where your TopMenu is stored.
+	 2. <Switch> is the bottom part of your page, and it contains a list of possible
+			locations you might want to go. Each <Route> is like a different page or view.
 */
 
 const App = () => (
-  <div id="App">
-    <TopMenu />
-    <Switch>
-        <Route exact path="/" component={HomeView}   />
-        <Route path="/about"  component={AboutView}  />
-        <Route path="/sports" component={SportsView} />
-        <Route path="/school" component={SchoolView} />
-      </Switch>
-  </div>
+	<div id="App">
+		<TopMenu />
+		<Switch>
+			<Route exact path="/" component={HomeView}   />
+			<Route path="/about"  component={AboutView}  />
+			<Route path="/sports" component={SportsView} />
+			<Route path="/school" component={SchoolView} />
+		</Switch>
+	</div>
 )
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
