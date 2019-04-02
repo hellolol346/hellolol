@@ -26,15 +26,19 @@ import '../css/reset.css'
 			locations you might want to go. Each <Route> is like a different page or view.
 */
 
+const BottomView = () => (
+	<Switch>
+		<Route exact path="/" component={HomeView}   />
+		<Route path="/about"  component={AboutView}  />
+		<Route path="/sports" component={SportsView} />
+		<Route path="/school" component={SchoolView} />
+	</Switch>
+)
+
 const App = () => (
 	<div id="App">
 		<TopMenu />
-		<Switch>
-			<Route exact path="/" component={HomeView}   />
-			<Route path="/about"  component={AboutView}  />
-			<Route path="/sports" component={SportsView} />
-			<Route path="/school" component={SchoolView} />
-		</Switch>
+		<BottomView />
 	</div>
 )
 
