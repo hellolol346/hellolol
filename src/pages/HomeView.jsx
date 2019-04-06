@@ -1,4 +1,5 @@
 import React from 'react'
+import Picture from '../images/example.png'
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // Component
@@ -9,6 +10,7 @@ const HomeView = () => (
          sports I like, and my school. 
       </h1>
       <div className='Button'>Click here to see my pictures</div>
+      <img id="BottomImage" src={Picture} />
    </section>
 )
 

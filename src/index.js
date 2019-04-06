@@ -1,7 +1,7 @@
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // Critical 
 
-// Do not touch this file.
+// Do not touch this file until you know what you're doing.
 
 import React from 'react';
 import ReactDOM from 'react-dom';
