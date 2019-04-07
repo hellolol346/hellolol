@@ -2,6 +2,12 @@
 
 Welcome to my project where I store the code for my website.
 
+## Additional Tools
+
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Google Chrome Developer](https://www.google.com/chrome/dev/)
+* [Homebrew](https://brew.sh/) (for MacOS)
+
 ## MacOS / Linux Installation
 
 1. Launch the **Terminal** app, perhaps from Finder.
