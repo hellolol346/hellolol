@@ -32,22 +32,22 @@ code {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 1em;
-}
 
-#TopMenu .item {
-  color: rgb(124, 179, 252);
-}
+  .item {
+    color: rgb(124, 179, 252);
+  
+    &:hover {
+      color: rgb(224, 43, 224);
+    }
 
-#TopMenu .item:hover {
-  color: rgb(224, 43, 224);
-}
+    &:not(:last-child) {
+      margin-right: 19px;
+    }
+  }
 
-#TopMenu .current {
-  border-bottom: 2px solid
-}
-
-.item:not(:last-child) {
-  margin-right: 19px;
+  .current {
+    border-bottom: 2px solid
+  }
 }
 
 /* ━━━━━ Button ━━━━━ */
@@ -78,4 +78,19 @@ code {
 #BottomImage {
   height: 300px;
   width: auto;
+}
+
+/* ━━━━━ SportsView ━━━━━ */
+
+#SportsImage {
+  height: 500px;
+  width: auto;
+}
+
+#SportsView {
+  h1 {
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-bottom: 1em;
+  }
 }
