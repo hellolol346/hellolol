@@ -42,3 +42,8 @@ Welcome to my project where I store the code for my website.
    ```
    npm start
    ```
+
+## Visual Studio Code quick guide (MacOS)
+
+* You can search for commands with `Command-Shift-p`.
+* You can search for files in the folder with `Ctrl-p`.
