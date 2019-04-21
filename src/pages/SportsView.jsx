@@ -6,9 +6,8 @@ import SportsImage from '../images/soccer2018.jpg'
 
 const SportsView = () => (
    <section id="SportsView">
-      <h1>Soccer and More</h1 >
-      <p> This is my sports page. Here you can learn about my soccer team, and you 
-         learn about the sports  I play in school.</p>
+      <h1>Soccer and More</h1>
+      <p>This is my sports page. Here you can see about my soccer team, and you learn    about the sports  I play in school. Meow.</p>
       <div className='Button'>Click here to see my pictures</div>
       <img id="SportsImage" src={SportsImage} />
    </section>

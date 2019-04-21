@@ -2,34 +2,48 @@
 
 Welcome to my project where I store the code for my website.
 
-## Windows Installation
+## Additional Tools
 
-Assuming you can access a terminal with the appropriate tools:
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Google Chrome Developer](https://www.google.com/chrome/dev/)
+* [Homebrew](https://brew.sh/) (for MacOS)
 
-1. Find the `git-bash` program by searching from Windows.
+## MacOS / Linux Installation
 
-2. First we copy the project from the web to our local hard computer with this 
-   command in the `git-bash` terminal:
- 
-   `git clone git@github.com:hellolol346/hellolol.git`
+1. Launch the **Terminal** app, perhaps from Finder.
 
-   This will create a new folder in your current location called `hellolol`.
+2. Navigate to a directory (or folder) where you'd like to dump your project files.
 
-3. Now we navigate (**c**hange **d**irectory) to the right directory.
-   
-   `cd hellolol`
+   ```
+   cd Project
+   ```
 
-4. We install the things we need:
+3. Copy the project from Github over to your computer.
 
-   `npm install`
+   ```
+   git clone git@github.com:hellolol346/hellolol.git
+   ```
 
-   This will look for a file called `package.json` and install everything you list
-   into a folder called `node_modules`. That contains files we don't have to worry
-   about but we'll use them to our benefit later.
+4. Navigate to the newly created project directory.
 
-5. We start the project in a browser:
+   ```
+   cd hellolol
+   ```
 
-   `npm start`
+5. Install the libraries and files you need for your setup. This will create a folder
+   called `node_modules` which will hold all the tools you depend on.
 
-   Now if you edit the source code of your files under `hellolol/src` then you should
-   be able to view the changes almost immediately in your browser.
+   ```
+   npm install
+   ```
+
+6. Start the dev process.
+
+   ```
+   npm start
+   ```
+
+## Visual Studio Code quick guide (MacOS)
+
+* You can search for commands with `Command-Shift-p`.
+* You can search for files in the folder with `Ctrl-p`.

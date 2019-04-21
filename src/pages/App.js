@@ -17,6 +17,8 @@ import '../css/reset.css'
 // Main App
 
 /*
+	Do not change this file... for now.
+
 	 Your website is made of two parts right now, a top menu part and a bottom page
 	 underneath. When you click on the menu items the bottom part changes based on
 	 where you want to go.

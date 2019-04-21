@@ -1,96 +1,96 @@
 /* ━━━━━ Default ━━━━━ */
 
 body {
-  margin-left: 1em;
-  margin-right: 1em;
-  margin: auto;
-  background-color: black;
-  color: white;
-  text-align: justify;
-  text-justify: inter-word;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin: auto;
+	background-color: black;
+	color: white;
+	text-align: justify;
+	text-justify: inter-word;
 
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
 
 #App {
-  margin: auto;
-  padding: 1em;
+	margin: auto;
+	padding: 1em;
 }
 
 /* ━━━━━ TopMenu ━━━━━ */
 
 #TopMenu {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 1em;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 1em;
 
-  .item {
-    color: rgb(124, 179, 252);
-  
-    &:hover {
-      color: rgb(224, 43, 224);
-    }
+	.item {
+		color: rgb(124, 179, 252);
+	
+		&:hover {
+			color: rgb(224, 43, 224);
+		}
 
-    &:not(:last-child) {
-      margin-right: 19px;
-    }
-  }
+		&:not(:last-child) {
+			margin-right: 19px;
+		}
+	}
 
-  .current {
-    border-bottom: 2px solid
-  }
+	.current {
+		border-bottom: 2px solid
+	}
 }
 
 /* ━━━━━ Button ━━━━━ */
 
 .Button {
-  border: 2px solid transparent;
-  max-width: 8em;
-  padding: 1em;
-  text-align: center;
-  border-radius: 3px; /* makes the corner less sharp */
-  transition: all 1.5s; /* makes a delayed animation */
+	border: 2px solid transparent;
+	max-width: 8em;
+	padding: 1em;
+	text-align: center;
+	border-radius: 3px; /* makes the corner less sharp */
+	transition: all 1.5s; /* makes a delayed animation */
 }
 
 .Button:hover {
-  border-radius: 3px;
-  border: 2px solid green;
+	border-radius: 3px;
+	border: 2px solid green;
 }
 
 .Button:active {
-  border: 2px solid green;
-  background: rgba(55, 219, 55, 0.20);
-  max-width: 8em;
-  padding: 1em;
+	border: 2px solid green;
+	background: rgba(55, 219, 55, 0.20);
+	max-width: 8em;
+	padding: 1em;
 }
 
 /* ━━━━━ HomeView ━━━━━ */
 
 #BottomImage {
-  height: 300px;
-  width: auto;
+	height: 300px;
+	width: auto;
 }
 
 /* ━━━━━ SportsView ━━━━━ */
 
 #SportsImage {
-  height: 500px;
-  width: auto;
+	height: 500px;
+	width: auto;
 }
 
 #SportsView {
-  h1 {
-    font-size: 1.5em;
-    text-decoration: underline;
-    margin-bottom: 1em;
-  }
+	h1 {
+		font-size: 1.5em;
+		text-decoration: underline;
+		margin-bottom: 1em;
+	}
 }
