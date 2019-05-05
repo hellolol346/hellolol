@@ -47,3 +47,13 @@ Welcome to my project where I store the code for my website.
 
 * You can search for commands with `Command-Shift-p`.
 * You can search for files in the folder with `Ctrl-p`.
+
+## Learning for HTML and CSS
+
+* For everything hard, get used to looking at MDN (Mozilla Development Network) on Google. For example, if I forgot how to do font stuff, I'd Google:
+
+`css mdn font`
+
+* For this week, explore margin and padding. Padding is how fat you are, and margin is how much personal space you'd prefer on a packed bus or html element.
+
+* Your main website has some margin and padding issues because some of the text and pictures look squeezed together. Try to find the CSS to make them look good.
