@@ -17,8 +17,6 @@ const SchoolView = () => (
          in my classroom.</p>
       <img src={Example} />
       <br />
-      <Clickable title="mnoomix" />
-      <button onClick={logToConsole}>Test Button</button>
    </section>
 )
 
