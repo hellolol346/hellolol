@@ -55,6 +55,13 @@ function BooleanWidget() {
    )
 }
 
+const postMaker = (post) => (
+   <section>
+      <h1>{post.title}</h1>
+      <p>{post.text}</p>
+   </section>
+)
+
 const SportsView = () => (
    <section id="SportsView">
       <h1>Soccer and More</h1>
@@ -62,12 +69,7 @@ const SportsView = () => (
       <div className='Button'>Click here to see my pictures</div>
       <img id="SportsImage" src={SportsImage} />
       {
-         blogPosts.map(post => (
-            <section>
-               <h1>{post.title}</h1>
-               <p>{post.text}</p>
-            </section>
-         ))
+         blogPosts.map(postMaker)
       }
 
       <BooleanWidget />
