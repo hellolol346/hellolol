@@ -1,7 +1,6 @@
 import React from 'react'
 import Example from '../images/school-example.jpg'
 
-
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // Component
 

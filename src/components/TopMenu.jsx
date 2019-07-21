@@ -12,6 +12,7 @@ const TopMenu = () => (
          <NavLink to='/about'  className='item' activeClassName='current'>About</NavLink>
          <NavLink to='/sports' className='item' activeClassName='current'>Sports</NavLink>
          <NavLink to='/school' className='item' activeClassName='current'>School</NavLink>
+         <NavLink to='/test'   className='item' activeClassName='current'>Test</NavLink>
       </section>
    </menu>
 )

@@ -36,6 +36,7 @@ function BooleanWidget() {
    return (
       <section>
          <h1>State: {String(flip)}</h1>
+         <button className='Button' onClick={() => setflip(!flip)}>Click here to see my pictures</button>
          <p> 
             {
                // whatever value JavaScript returns will end up here, but only
@@ -43,14 +44,13 @@ function BooleanWidget() {
                example()
             }
          </p>
-         <p>Another example: {Math.sin(0.5 * Math.PI)}</p>
          <p>
             {
                // this can also be abbreviated:
-               flip ? null : "Puppy Chow is delicious."
+               flip ? null : <img id="SportsImage" src={SportsImage} />
             }
          </p>
-         <button onClick={() => setflip(!flip)}>flip</button>
+         
       </section>
    )
 }
@@ -64,13 +64,10 @@ const postMaker = (post) => (
 
 const SportsView = () => (
    <section id="SportsView">
+       
       <h1>Soccer and More</h1>
-      <p>This is my sports page. Here you can see about my soccer team, and you learn    about the sports  I play in school. Meow.</p>
-      <div className='Button'>Click here to see my pictures</div>
-      <img id="SportsImage" src={SportsImage} />
-      {
-         blogPosts.map(postMaker)
-      }
+      <p>This is my sports page. Here you can see about my soccer team, and you learn about the sports  I play in school. </p>
+
 
       <BooleanWidget />
    </section>

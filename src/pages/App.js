@@ -9,6 +9,7 @@ import HomeView   from './HomeView'
 import AboutView  from './AboutView'
 import SchoolView from './SchoolView'
 import SportsView from './SportsView'
+import TestView   from './TestView' 
 
 import '../css/App.scss'
 import '../css/reset.css'
@@ -34,6 +35,7 @@ const BottomView = () => (
 		<Route path="/about"  component={AboutView}  />
 		<Route path="/sports" component={SportsView} />
 		<Route path="/school" component={SchoolView} />
+		<Route path="/test"   component={TestView} />
 	</Switch>
 )
 
