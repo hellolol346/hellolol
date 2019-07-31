@@ -53,40 +53,6 @@ const FormWidget = () => {
     )
  }
  
-
-function BooleanWidget() {
-    const [flip, setflip]= useState(true);
-    const example = () => {
-        if (flip) {
-            return "Yay."
-        }
-        else {
-            return "No."
-        }
-    }
-
-    return (
-        <section>
-            <h1>State: {String(flip)}</h1>
-            <button className='Button' onClick={() => setflip(!flip)}>Click here to see my pictures</button>
-            <p> 
-                {
-                // whatever value JavaScript returns will end up here, but only
-                // values may end up here.
-                example()
-                }
-            </p>
-            <p>Another example: {Math.sin(0.5 * Math.PI)}</p>
-            <p>
-                {
-                // this can also be abbreviated:
-                flip ? null : <img id="SportsImage" src={SportsImage} />
-                }
-            </p>        
-        </section>
-    )
-}
-
  const postMaker = (post) => (
     <section>
        <h1>{post.title}</h1>
