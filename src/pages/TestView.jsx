@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import SportsImage from '../images/soccer2018.jpg'
+import RootWidget from '../components/RootWidget';
 
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -83,6 +84,9 @@ function TestView() {
                 }
             </section>
             <FormWidget />
+            <section>
+                <RootWidget />
+            </section>
         </section>
     )
 }
